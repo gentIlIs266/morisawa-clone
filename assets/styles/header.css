@@ -1,0 +1,15 @@
+.l-header{
+    display: block;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    width: calc(45px * var(--sw));
+    min-width: 30px;
+    z-index: 100;
+}
+.l-header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

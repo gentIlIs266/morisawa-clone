@@ -1,0 +1,13 @@
+.c-loading{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: var(--vh);
+    z-index: 1000;
+    overflow: hidden;
+}
+.c-loading.is-hidden{
+    pointer-events: none;
+}

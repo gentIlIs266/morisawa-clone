@@ -11,10 +11,122 @@
     <script type="text/javascript" src="assets/scripts/index.js"></script>
 </head>
 <body>
-    <div class="c-loading js-loading"></div>
-    <header class="l-header js-header">
-        <a href="/" class="l-header__container js-header__container"></a>
-    </header>
+    <div class="c-loading js-loading is-hidden"></div>
+        <header class="l-header js-header">
+            <a href="/" class="l-header__container js-header__container">
+                <h1 class="l-header__logo"></h1>
+                <h2 class="l-header__title js-header__title"></h2>
+            </a>
+        </header>
+        <nav class="c-navigation js-navigation">
+            <div class="c-navigation__primary">
+                <ul class="c-navigation__primary__list">
+                    <li>
+                        <a class="c-navigation__primary__item js-navigation__item" href="/#concept">
+                            <span>Concept</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="c-navigation__primary__item js-navigation__item" href="/#interview">
+                            <span>Interview</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="c-navigation__primary__item js-navigation__item" href="/#concept">
+                            <span>Lyrics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="c-navigation__primary__item js-navigation__item" href="/#lyrics">
+                            <span>About Morisawa Fonts</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="c-navigation__primary__item js-navigation__item" href="/#about-morisawa-fonts">
+                            <span>Credit</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="c-navigation__secondary">
+                <h5 class="c-navigation__secondary__headline">
+                    <span>Follow us</span>
+                </h5>
+                <ul class="c-navigation__secondary__list">
+                    <li>
+                        <a class="c-navigation__secondary__item" href="https://twitter.com/morisawa_jp" target="_blank">
+                            <img alt="Twitter" src="./assets/images/follow-us__twitter.svg" decoding="async" width="19" height="16">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="c-navigation__secondary__item" href="https://www.facebook.com/MorisawaJapan/" target="_blank">
+                            <img alt="Twitter" src="./assets/images/follow-us__facebook.svg" decoding="async" width="18" height="18">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="c-navigation__secondary__item" href="https://note.morisawa.co.jp/" target="_blank">
+                            <img alt="Facebook" src="./assets/images/follow-us__note.svg" decoding="async" width="15" height="17">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="c-navigation__toggle-button js-navigation__toggle-button"></div>
+        </nav>
+        <main class="l-main" id="index">
+            <section class="p-cover js-cover">
+                <div class="p-cover__background">
+                    <div class="c-modal-video js-modal-video">
+                        <div class="c-modal-video__background js-modal-video__background"></div>
+                        <div class="c-modal-video__close-button js-modal-video__close-button"></div>
+                        <div class="c-modal-video__player js-modal-video__player" data-video-id="B50A9Nf5FCE">
+                            <iframe 
+                                id="js-movie-player--B50A9Nf5FCE"
+                                class="c-youtube-player"
+                                frameborder="0" 
+                                allowfullscreen
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                referrerpolicy="strict-origin-when-cross-origin" 
+                                title="置き手紙 / Vaundy : MUSIC VIDEO" 
+                                width="1920" 
+                                height="1080" 
+                                src="https://www.youtube.com/embed/B50A9Nf5FCE?si=YI3IUKZt-MjdXwjC">
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="p-cover-video">
+                        <video class="js-cover__video"></video>
+                    </div>
+                    <div class="p-cover__controller">
+                        <div class="p-cover__controller__container js-cover__play-button">
+                            <div class="p-cover__controller__play-button">
+                                <svg></svg>
+                            </div>
+                            <canvas class="p-cover__controller__indicator js-cover__indicator" width="949.376" height="949.376">
+                        </div>
+                    </div>
+                </div>
+                <div class="p-cover__foreground">
+                    <a class="p-cover__logo" href="/"></a>
+                    <h2 class="p-cover__title">
+                        <picture class="c-image__contain">
+                            <source media="(min-width: 939px)" srcset="/assets/images/index__cover__title__vw-small.svg">
+                            <img alt="Vaundy x Morisawa Fonts Font Specimen Music Video 置き手紙" src="./assets/images/index__cover__title__vw-large.svg" decoding="async">
+                        </picture>
+                    </h2>
+                    <div class="p-cover__arrow"></div>
+                </div>
+            </section>
+            <section class="p-concept js-observer__target" id="concept"></section>
+            <section class="p-interview js-observer__target" id="interview"></section>
+            <section class="p-lyrics js-lyrics" id="lyrics"></section>
+            <section class="p-about-morisawa-fonts" id="about-morisawa-fonts"></section>
+            <section class="p-credit" id="credit"></section>
+            <div class="p-note"></div>
+            <a class="p-interview-banner js-interview-banner" href="/interview/"></a>
+        </main>
+        <footer class="l-footer js-footer"></footer>
+    <div class="c-wrapper"></div>
 </body>
 </html>
 

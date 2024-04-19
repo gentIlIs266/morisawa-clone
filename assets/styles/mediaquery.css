@@ -12,6 +12,13 @@
     }
 }
 @media(min-width: 940px){
+    .l-header.is-visible{
+        opacity: 1.0;
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+@media(min-width: 940px){
     .l-header{
         opacity: 0.0;
         visibility: hidden;
@@ -19,12 +26,5 @@
         transition-property: transform, opacity, visibility;
         transition-duration: 625ms;
         transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
-    }
-}
-@media(min-width: 940px){
-    .l-header.is-visible{
-        opacity: 1.0;
-        transform: translateX(0px);
-        visibility: visible;
     }
 }

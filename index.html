@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OKITEGAMI | clone</title>
+    <title>Vaundy x Morisawa Fonts | clone</title>
     <link rel="icon" href="https://morisawafonts.com/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/styles/index.css">
     <script src="https://www.youtube.com/iframe_api"></script>
@@ -12,6 +12,7 @@
 </head>
 <body>
     <div class="c-loading js-loading is-hidden"></div>
+    <div class="c-wrapper">
         <header class="l-header js-header">
             <a href="/" class="l-header__container js-header__container">
                 <h1 class="l-header__logo"></h1>
@@ -24,34 +25,40 @@
                     <li>
                         <a class="c-navigation__primary__item js-navigation__item" href="/#concept">
                             <span>Concept</span>
+                            <img alt="Concept" src="/assets/images/navigation__vw-small__concept.svg" decoding="async" width="141" height="33">
                         </a>
                     </li>
                     <li>
                         <a class="c-navigation__primary__item js-navigation__item" href="/#interview">
                             <span>Interview</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="c-navigation__primary__item js-navigation__item" href="/#concept">
-                            <span>Lyrics</span>
+                            <img alt="Interview" src="/assets/images/navigation__vw-small__interview.svg" decoding="async" width="158" height="25">
                         </a>
                     </li>
                     <li>
                         <a class="c-navigation__primary__item js-navigation__item" href="/#lyrics">
-                            <span>About Morisawa Fonts</span>
+                            <span>Lyrics</span>
+                            <img alt="Lyrics" src="/assets/images/navigation__vw-small__lyrics.svg" decoding="async" width="105" height="33">
                         </a>
                     </li>
                     <li>
                         <a class="c-navigation__primary__item js-navigation__item" href="/#about-morisawa-fonts">
+                            <span>About Morisawa Fonts</span>
+                            <img alt="About Morisawa Fonts" src="/assets/images/navigation__vw-small__about-morisawa-fonts.svg" decoding="async" width="236" height="26">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="c-navigation__primary__item js-navigation__item" href="">
                             <span>Credit</span>
+                            <img alt="Credit" src="/assets/images/navigation__vw-small__credit.svg" decoding="async" width="114" height="27">
                         </a>
                     </li>
                 </ul>
-
             </div>
             <div class="c-navigation__secondary">
                 <h5 class="c-navigation__secondary__headline">
-                    <span>Follow us</span>
+                    <picture class="c-image--contain">
+                        <img alt="Follow us" src="assets/images/follow-us__headline.svg" decoding="async">
+                    </picture>
                 </h5>
                 <ul class="c-navigation__secondary__list">
                     <li>
@@ -117,16 +124,108 @@
                     <div class="p-cover__arrow"></div>
                 </div>
             </section>
-            <section class="p-concept js-observer__target" id="concept"></section>
-            <section class="p-interview js-observer__target" id="interview"></section>
-            <section class="p-lyrics js-lyrics" id="lyrics"></section>
+            <section class="p-concept js-observer__target" id="concept">
+                <h2 class="p-concept__headline">
+                    <picture class="c-image--contain">
+                        <img alt="Concept" src="assets/images/headline__concept.svg" decoding="async">
+                    </picture>
+                </h2>
+                <p class="p-concept__body-text">
+                    <span>本作 「置き手紙」 は、</span>
+                    <br class="is-hidden--vw-large">
+                    <span class="c-typography--en is-head-of-line">Morisawa Fonts</span>
+                    <span>と</span>
+                    <span class="c-typography--en">Vaundy</span>
+                    <span>の</span>
+                    <br>
+                    <span>コラボレーションから誕生した</span>
+                    <br class="is-hidden--vw-large">
+                    <span class="c-typography--en">Font Specimen Music Video</span>
+                    <span>です。</span>
+                    <br>
+                    <span>フォントは、伝えたい言葉に</span>
+                    <br class="is-hidden--vw-large">
+                    <span>込められた想いを強めたり、</span>
+                    <br>
+                    <span>時には変えてしまうような</span>
+                    <br class="is-hidden--vw-large">
+                    <span>魔法の力を持っています。</span>
+                    <br>
+                    <span>「置き手紙」という歌で繰り返される</span>
+                    <br class="is-hidden--vw-large">
+                    <span>「魔法の言葉」を巡る物語を、</span>
+                    <br>
+                    <span>フォントが溢れる世界観で</span>
+                    <br class="is-hidden--vw-large">
+                    <span>映像化しました。</span>
+                    <br>
+                    <span class="c-typography--en is-head-of-line">Vaundy</span>
+                    <span>のパワフルな歌声と、</span>
+                    <br class="is-hidden--vw-large">
+                    <span>それを可視化した様々なフォントたちの、</span>
+                    <br>
+                    <span>書体見本帳を舞台にした</span>
+                    <br class="is-hidden--vw-large">
+                    <span>共演をお楽しみください。</span>
+                </p>
+                <p class="p-concept__note">*Font Specimen = 書体見本帳</p>
+            </section>
+            <section class="p-interview js-observer__target" id="interview">
+                <h2 class="p-interview__headline">
+                    <picture class="c-image--contain">
+                        <img alt="Interview" src="/assets/images/headline__interview.svg" decoding="async">
+                    </picture>
+                </h2>
+                <div class="p-interview__image">
+                    <picture class="c-image--contain">
+                        <source media="(min-width: 939px)" srcset="assets/images/index__interview__880s.jpg">
+                        <img src="assets/images/index__interview__840w.jpg"  decoding="async">
+                    </picture>
+                </div>
+                <div class="p-interview__body">
+                    <div class="p-inerview__title">
+                        <h3 class="p-interview__subhead">
+                            "Vaundy x 川村 真司 x 牧野 惇 x Morisawa"
+                            <br class="is-hidden--vw-large">
+                            "スペシャル対談"
+                        </h3>
+                        <p class="p-interview__body-text">
+                            "追い求めたのは、フォント表現の新たな可能性。マルチアーティスト
+                            Vaundy、クリエイティブディレクターの川村真司氏、映像ディレクター牧野
+                            惇氏のお三方に、文字の魅力やフォント表現の可能性、MV制作の舞台裏など
+                            を伺いました。"
+                        </p>
+                    </div>
+                    <a href="/interview/">
+                        <div class="c-button__container typesquare-option">
+                            <div class="c-button__icon">
+                                <svg></svg>
+                            </div>
+                            <div class="c-button__label typesquare-option">View More</div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="p-lyrics js-lyrics" id="lyrics">
+                <h2 class="p-lyrics__headline">
+                    <picture class="c-image--contain">
+                        <img alt="Lyrics" src="assets/images/headline__lyrics.svg" decoding="async">
+                    </picture>
+                </h2>
+                <div class="p-lyrics__body">
+                    <div class="p-lyrics__typeface js-lyrics__typeface typesquare-option"></div>
+                    <div class="p-lyrics__line js-lyrics__line"></div>
+                    <div class="p-lyrics__line js-lyrics__line is-empty"></div>
+                </div>
+            </section>
             <section class="p-about-morisawa-fonts" id="about-morisawa-fonts"></section>
             <section class="p-credit" id="credit"></section>
             <div class="p-note"></div>
-            <a class="p-interview-banner js-interview-banner" href="/interview/"></a>
+            <a class="p-interview-banner js-interview-banner" href="/interview/">
+            </a>
         </main>
         <footer class="l-footer js-footer"></footer>
-    <div class="c-wrapper"></div>
+    </div>
 </body>
 </html>
 
